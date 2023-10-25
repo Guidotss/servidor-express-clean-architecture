@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/src/app.js",
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/app.ts",
     "test": "jest",
     "test:watch": "jest --watch",
